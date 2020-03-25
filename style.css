@@ -129,7 +129,7 @@
     margin-top: 200px; 
     margin-bottom: 20px;
 /*  border: 1px solid #bcbcbc;*/
-    background-color: rgb(177, 226, 245);
+   background-color: rgb(177, 226, 245);
 
     height: 250px;
     border-right: 5px solid #c8ced3;
@@ -139,12 +139,23 @@
 
 
 .side-item{
-    color :dimgrey;
-    font-size: 18px;
+    color :gray;
+    font-size: 20px;
+    bottom: 10px;
+    margin-left: 10px;
+    margin-bottom: 3px;
 }
 #sidemenu1, #sidemenu2, #sidemenu3, #sidemenu4, #sidemenu5{ display: none;}
-
-
+#sideTitle{
+    color: rgba(0, 0, 255, 0.459);
+    margin-left: 10px;
+    border-bottom: 2px solid white;
+    font-size: 22px;
+   
+}
+.side-link{
+    text-decoration: none; color: gray; 
+}
 /*---- section ----*/
 #content {
   
