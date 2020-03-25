@@ -1,6 +1,6 @@
 
 // start-window 
-window.onload = function() {menu_view(1),change_sideTitle(1)};
+window.onload = function() {menu_view(1),sidemenu_view(1),change_sideTitle(1)};
 
 // navbar 
 var navbar1 = document.getElementById('navbar1');
